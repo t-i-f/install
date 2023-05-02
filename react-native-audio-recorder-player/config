@@ -1,0 +1,8 @@
+{
+  "package": "react-native-audio-recorder-player",
+  "dependencies": [],
+  "edits": [
+    ["$rn_android_src", "AndroidManifest.xml"],
+    ["$rn_android", "build.gradle"]
+  ]
+}

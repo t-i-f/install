@@ -1,0 +1,17 @@
+/^(.*)(minSdkVersion = )(\d{2})(.*)$/m
+XXXXXX
+$1$224$4
+======
+/^(.*)(targetSdkVersion.*)$/m
+XXXXXX
+$1$2
+$1kotlinVersion = '1.6.10'
+XXXXXX
+kotlinVersion =
+======
+/^(.*)(classpath\("com.android.tools.build:gradle.*)$/m
+XXXXXX
+$1$2
+$1classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+XXXXXX
+kotlin-gradle-plugin
